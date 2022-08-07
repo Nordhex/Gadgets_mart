@@ -1,0 +1,256 @@
+/* Online store styles */
+body{
+    background-color: #e9e9e9;
+}
+.navbar{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.website-name{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 24px;
+}
+.pages{
+    padding-top: 5px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 16px;
+}
+.container{
+    width: 100%;
+    margin-left: 5%;
+    
+}
+.feature-image-with-description{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 170px;
+}
+.description{
+    width: 400px;
+    
+}
+
+.start-journy{
+    width: 550px;
+    font-family: poppins;
+    font-size: 48px;
+    
+}
+.feature-image-description{
+    width: 550px;
+    font-family: poppins;
+    font-size: 16px;
+    line-height: 24px;
+}
+.prebook{
+    width: 170px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    background-color: #E02C6D;
+    font-family: poppins;
+    font-size: 16px;
+    color: #ffff;
+}
+.fas {
+    margin-left: 10px;
+    
+}
+.feature-image{
+    margin-top: 20px;
+    margin-left: 10%;
+    border: 2px solid rgb(168, 151, 165);
+    border-radius: 50%;
+    display: flex;
+}
+
+hr{
+    border: .5px solid #d1d1d1;
+}
+.online-store{
+    margin-top: 36px;
+    margin-bottom: 25px;
+}
+.stores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.store{
+    margin-right: 40px;
+}
+.popular-collection{
+    margin-top: 100px;
+}
+.popular-collection-heading{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 28px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product{
+    width: 300px;
+    height: 475px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 1px 1px 1px grey;
+    align-items: center;
+}
+
+.product-image{
+    width: 280px;
+    height: 240px;
+}
+.product-details{
+    width: 195px;
+    height: 60px;
+}
+.product-title{
+    font-family: poppins;
+    font-weight: 500px;
+    font-size: 24px;
+}
+.product-info{
+    margin-left: 14px;
+}
+.product-rating{
+    font-size: roboto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.see-more{
+    text-decoration: none;
+    color: #E02C6D;
+    margin-top: 50px;
+    display: flex;
+    -ms-flex-align: center;
+    justify-content: end;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+
+.featured{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+}
+.featured-image img{
+    width: 400px;
+    height: 270px;
+}
+.feature-details{
+    margin-left: 96px;
+}
+#featured-products{
+    font-family: poppins;
+    font-size: 28px;
+}
+#feature-description{
+    font-family: poppins;
+    font-size: 16px;
+    line-height: 28px;
+}
+.join-now{
+    width: 155px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E02C6D;
+    font-family: poppins;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.footer{
+    padding-top: 50px;
+    height: 240px;
+    width: 100%;
+    background-color: #17082e;
+    text-align: center;
+}
+
+.footer-text{
+    width: 100%;
+    /* text-align: center; */
+}
+
+#footer-heading{
+    font-family: poppins;
+    font-weight: 700px;
+    font-size: 24px;
+    color: #ffff;
+}
+#copyright, #all-right{
+    font-family: Manrope;
+    color: #ffff;
+    font-weight: 700px;
+    font-size: 14px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    border: 1px;
+}
+.icon{
+    margin-right: 20px;
+}
+.fa-instagram, .fa-globe, .fa-twitter, .fa-youtube{
+    color: white;
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+
+ @media only screen and (max-width:688px) {
+    .navbar{
+
+        flex-direction: column;
+        justify-content: center;
+    }
+    .start-journy{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .popular-collection-heading{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-image-with-description{
+        flex-direction: column;
+    }
+    .featured{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
